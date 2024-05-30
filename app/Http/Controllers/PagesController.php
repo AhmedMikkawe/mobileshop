@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Promotion;
 use App\Models\Service;
 use App\Models\Social;
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -14,7 +15,8 @@ class PagesController extends Controller
         $promotions = Promotion::all();
         $socials = Social::all();
         $services = Service::all();
-        return view('pages.home', ['promotions' => $promotions, 'socials' => $socials, 'services' => $services]);
+        $testimonials = Testimonial::all();
+        return view('pages.home', ['promotions' => $promotions, 'socials' => $socials, 'services' => $services, 'testimonials' => $testimonials]);
     }
     public function service($id)
     {

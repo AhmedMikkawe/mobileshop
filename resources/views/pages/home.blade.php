@@ -85,4 +85,19 @@
       </div>
     </div>
   </section>
+  <!-- What They Say About Us Section -->
+    <section class="container mt-5">
+        <h2 class="text-center section-title">What They Say About Us</h2>
+        <div class="owl-carousel owl-theme mt-4">
+            @foreach ($testimonials as $testimonial)
+                <div class="item">
+                    <div class="testimonial p-3 rounded-lg position-relative">
+                        <p>{{ $testimonial->content }}</p>
+                        <div class="testimonial-name font-weight-bold position-absolute">{{ $testimonial->name }}</div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </section>
+
 @endsection
