@@ -85,4 +85,47 @@
       </div>
     </div>
   </section>
+
+  <!-- What They Say About Us Section -->
+    <section class="container mt-5">
+        <h2 class="text-center section-title">What They Say About Us</h2>
+        <div class="owl-carousel owl-theme mt-4">
+            @foreach ($testimonials as $testimonial)
+                <div class="item">
+                    <div class="testimonial p-3 rounded-lg position-relative">
+                        <p>{{ $testimonial->content }}</p>
+                        <div class="testimonial-name font-weight-bold position-absolute">{{ $testimonial->name }}</div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </section>
+    <div class="container section-container mt-5">
+        <div class="row">
+            <div class="col-md-6 image-container">
+                <img src={{ asset('images/the_girl.png') }} class="w-100" alt="Placeholder Image">
+            </div>
+            <div class="col-md-6 p-3">
+
+                <h2>Our Premium Technical Support Services</h2>
+                <p>We offer a premium repair service in the city of Milan. With our attention
+                    to detail and the use of high-quality components, we ensure that every
+                    Smartphone, MAC, PC and Apple Watch repair is carried out with perfection.
+                    Choose the best for your devices.</p>
+                <ul class="image_list flex-wrap d-flex  " >
+                    <li class="hint-point mb-3">Smart Watch</li>
+                    <li class="hint-point mb-3">charging Port</li>
+                    <li class="hint-point mb-3">Battery</li>
+                    <li class="hint-point mb-3">Camera</li>
+                    <li class="hint-point mb-3">Power Button</li>
+                    <li class="hint-point mb-3">Screen</li>
+                    <li class="hint-point mb-3">Sensors</li>
+                    <li class="hint-point mb-3">Won’t Turn on ?</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
 @endsection
