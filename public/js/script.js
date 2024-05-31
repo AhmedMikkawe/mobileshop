@@ -45,4 +45,8 @@ $(document).ready(function () {
     $(window).on('load', function() {
         $('body').addClass('loaded');
     });
+    AOS.init({
+        duration: 2000,
+        once: true
+    });
 });
