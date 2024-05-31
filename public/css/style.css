@@ -74,6 +74,9 @@ body{
     text-decoration: underline #F9A933;
     text-transform: uppercase;
 }
+#services .card-text {
+    min-height: 96px;
+}
 .primary-btn{
     background-color: var(--primary-background);
     color: #fff;
