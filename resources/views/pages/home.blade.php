@@ -38,9 +38,6 @@
       </div>
     </div>
   </section>
-
-
-
   @if (count($services) > 0)
     <!-- Services Section -->
     <section class="container-fluid mt-5 p-3" id="services">
@@ -85,7 +82,6 @@
       </div>
     </div>
   </section>
-
   <!-- What They Say About Us Section -->
     <section class="container mt-5">
         <h2 class="text-center section-title">What They Say About Us</h2>
@@ -106,7 +102,6 @@
                 <img src={{ asset('images/the_girl.png') }} class="w-100" alt="Placeholder Image">
             </div>
             <div class="col-md-6 p-3">
-
                 <h2>Our Premium Technical Support Services</h2>
                 <p>We offer a premium repair service in the city of Milan. With our attention
                     to detail and the use of high-quality components, we ensure that every
@@ -126,6 +121,4 @@
 
         </div>
     </div>
-
-
 @endsection

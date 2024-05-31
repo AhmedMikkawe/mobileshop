@@ -20,12 +20,10 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .spinner-border {
     width: 3rem;
     height: 3rem;
 }
-
 /* Fade out animation */
 .loaded #loader {
     opacity: 0;
@@ -145,10 +143,6 @@ body{
     flex: 0 0 50%; /* Each item takes up 50% of the width */
 
 }
-
-
-
-
 
 .footer {
     background: url('../images/footer_image.png') no-repeat center center;
