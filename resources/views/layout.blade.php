@@ -40,12 +40,37 @@
 
   @yield('content')
   <!-- Footer -->
-  <footer class="bg-light text-center text-lg-start mt-5">
-    <div class="text-center p-3">
-      &copy; 2024 Your Company. All Rights Reserved.
-    </div>
-  </footer>
 
+  <footer class="footer mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 contact-info">
+                <h4>Contact Information</h4>
+                <p><strong>Address:</strong> 1234 Street Name, City, Country</p>
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Email:</strong> contact@example.com</p>
+            </div>
+            <div class="col-md-6 contact-form">
+                <h4>Contact Us</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn  form-button">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

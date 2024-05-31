@@ -20,12 +20,10 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .spinner-border {
     width: 3rem;
     height: 3rem;
 }
-
 /* Fade out animation */
 .loaded #loader {
     opacity: 0;
@@ -123,6 +121,7 @@ body{
     z-index: 2;
     transform: translateX(-50%);
 }
+
 .testimonial {
     background-color: rgba(176, 176, 176, 0.2);
     min-height: 168px;
@@ -130,4 +129,39 @@ body{
 
 .testimonial-name {
     bottom: 16px;
+}
+
+.image_list{
+    list-style-image: url('../images/Group44.png');
+
+}
+
+.image_list li {
+
+    /* padding-left: 25px;
+    margin-bottom: 10px; */
+    flex: 0 0 50%; /* Each item takes up 50% of the width */
+
+}
+
+.footer {
+    background: url('../images/footer_image.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 40px 0;
+}
+.footer .contact-info,
+.footer .contact-form {
+    color: white;
+}
+.footer .contact-form input,
+.footer .contact-form textarea {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    color: #333;
+}
+
+.form-button {
+    background-color: #F9A933;
+    color: #fff;
 }
