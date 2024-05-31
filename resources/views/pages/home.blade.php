@@ -44,7 +44,7 @@
       <div class="container">
         <div class="row mt-4">
           @foreach ($services as $service)
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="{{ $loop->index * 100 }}">
+            <div class="col-md-4 mt-3" data-aos="fade-up" data-aos-delay="{{ $loop->index * 100 }}">
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">{{ $service->title }}</h5>
