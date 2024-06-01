@@ -33,8 +33,8 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Casa</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('home')}}#testimonials">Testimonianze</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('home') }}#services">Servizi</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('home')}}#testimonials">Testimonianze</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('home') }}#contact-us">Contattaci</a></li>
             </ul>
         </div>
