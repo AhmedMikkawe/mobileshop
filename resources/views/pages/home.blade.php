@@ -24,12 +24,9 @@
   <section class="container mt-5" data-aos="fade-up">
     <div class="row">
       <div class="col-md-9">
-        <h2>Repair and Assistance iPhone, Mac, PC and Tablet in the city of Milan.</h2>
-        <p class="font-weight-bold">For us, the happiness of our customers is the top priority. Our commitment to
-          iPhone and Mac repair and service is based on guaranteed satisfaction, ensuring that every
-          repaired device returns to its optimal performance. The satisfaction of our customers
-          is at the heart of our repair service.</p>
-        <a href="#contact-us" class="badge badge-pill p-3 primary-btn">Contact us</a>
+        <h2>Riparazione e Assistenza iPhone, Mac, PC e Tablet nella città di Milano.</h2>
+        <p class="font-weight-bold">Per noi la felicità dei nostri clienti è la massima priorità. Il nostro impegno per la riparazione e l'assistenza di iPhone e Mac si basa sulla soddisfazione garantita, assicurando che ogni dispositivo riparato ritorni alle sue prestazioni ottimali. La soddisfazione dei nostri clienti è al centro del nostro servizio di riparazione.</p>
+        <a href="#contact-us" class="badge badge-pill p-3 primary-btn">Contattaci</a>
       </div>
       <div class="col-md-3">
         <img src="{{ asset('images/brokenphone.png') }}" class="img-fluid" alt="Our Vision">
@@ -40,7 +37,7 @@
   @if (count($services) > 0)
     <!-- Services Section -->
     <section class="container-fluid mt-5 p-3" id="services" data-aos="fade-up">
-      <h2 class="text-center section-title">Our Services</h2>
+      <h2 class="text-center section-title">I nostri servizi</h2>
       <div class="container">
         <div class="row mt-4">
           @foreach ($services as $service)
@@ -49,7 +46,7 @@
                 <div class="card-body">
                   <h5 class="card-title">{{ $service->title }}</h5>
                   <p class="card-text">{{ $service->description }}</p>
-                  <a href="{{ route('pages.service', $service->id) }}" class="badge badge-pill p-3 primary-btn">Learn More</a>
+                  <a href="{{ route('pages.service', $service->id) }}" class="badge badge-pill p-3 primary-btn">Saperne di più</a>
                 </div>
               </div>
             </div>
@@ -63,11 +60,8 @@
   <section class="container mt-5" data-aos="fade-up">
     <div class="row">
       <div class="col-md-8">
-        <h2>AFFORDABLE MOBILE PHONE & TABLET DEVICE REPAIR SHOP</h2>
-        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum
-          as their default model text, and a search for ‘lorem ipsum’ will uncover many
-          web sites. During the meeting you will receive plenty of information concerning
-          the most effective solutions for personal and property protection.</p>
+        <h2>NEGOZIO DI RIPARAZIONE DISPOSITIVI CELLULARI E TABLET CONVENIENTE</h2>
+        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites. During the meeting you will receive plenty of information concerning the most effective solutions for personal and property protection.</p>
       </div>
       <div class="col-md-4">
         <div class="slider-container">
@@ -82,7 +76,7 @@
   <!-- What They Say About Us Section -->
   @if (count($testimonials) != 0)
     <section class="container mt-5" id="testimonials" data-aos="fade-up">
-      <h2 class="text-center section-title">What They Say About Us</h2>
+      <h2 class="text-center section-title">Cosa dicono di noi</h2>
       <div class="owl-carousel owl-theme mt-4">
         @foreach ($testimonials as $testimonial)
           <div class="item">
@@ -102,20 +96,17 @@
         <img src="{{ asset('images/the_girl.png') }}" class="w-100" alt="Placeholder Image">
       </div>
       <div class="col-md-6 p-3">
-        <h2>Our Premium Technical Support Services</h2>
-        <p>We offer a premium repair service in the city of Milan. With our attention
-          to detail and the use of high-quality components, we ensure that every
-          Smartphone, MAC, PC and Apple Watch repair is carried out with perfection.
-          Choose the best for your devices.</p>
+        <h2>I nostri servizi di supporto tecnico premium</h2>
+        <p>Offriamo un servizio di riparazione premium nella città di Milano. Con la nostra attenzione ai dettagli e l'utilizzo di componenti di alta qualità, garantiamo che ogni riparazione di Smartphone, MAC, PC e Apple Watch venga eseguita alla perfezione. Scegli il meglio per i tuoi dispositivi.</p>
         <ul class="image_list flex-wrap d-flex">
-          <li class="hint-point mb-3">Smart Watch</li>
-          <li class="hint-point mb-3">Charging Port</li>
-          <li class="hint-point mb-3">Battery</li>
-          <li class="hint-point mb-3">Camera</li>
-          <li class="hint-point mb-3">Power Button</li>
-          <li class="hint-point mb-3">Screen</li>
-          <li class="hint-point mb-3">Sensors</li>
-          <li class="hint-point mb-3">Won’t Turn on?</li>
+          <li class="hint-point mb-3">Orologio intelligente</li>
+          <li class="hint-point mb-3">Porta di ricarica</li>
+          <li class="hint-point mb-3">Batteria</li>
+          <li class="hint-point mb-3">Telecamera</li>
+          <li class="hint-point mb-3">Pulsante di accensione</li>
+          <li class="hint-point mb-3">Schermo</li>
+          <li class="hint-point mb-3">Sensori</li>
+          <li class="hint-point mb-3">Non si accende?</li>
         </ul>
       </div>
     </div>

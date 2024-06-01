@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mobile shop</title>
+    <title>Connect Store</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet">
@@ -32,10 +32,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
-                <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('home')}}#testimonials">Testimonials</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('home') }}#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('home') }}#contact-us">Contact us</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Casa</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('home')}}#testimonials">Testimonianze</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('home') }}#services">Servizi</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('home') }}#contact-us">Contattaci</a></li>
             </ul>
         </div>
     </div>
@@ -48,28 +48,28 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 contact-info">
-                <h4>Contact Information</h4>
-                <p><strong>Address:</strong> Via Giambellino, 41A, Milano, MI, Italia</p>
-                <p><strong>Phone:</strong><a href="tel:+393453338894" class="text-white">+393453338894</a></p>
-                <p><strong>Email:</strong><a href="mailto:Hanyelmasry71@gmail.com" class="text-white">Hanyelmasry71@gmail.com</a></p>
+                <h4>Informazioni sui contatti</h4>
+                <p><strong>Indirizzo:</strong> Via Giambellino, 41A, Milano, MI, Italia</p>
+                <p><strong>Telefono:</strong><a href="tel:+393453338894" class="text-white">+393453338894</a></p>
+                <p><strong>E-mail:</strong><a href="mailto:Hanyelmasry71@gmail.com" class="text-white">Hanyelmasry71@gmail.com</a></p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11195.868417782296!2d9.148079!3d45.450319!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c3c4ef2152bf%3A0xbc43931f95897959!2zVmlhIEdpYW1iZWxsaW5vLCA0MUEsIDIwMTQ2IE1pbGFubyBNSSwg2KXZiti32KfZhNmK2Kc!5e0!3m2!1sar!2sus!4v1717161613042!5m2!1sar!2sus" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="col-md-6 contact-form">
-                <h4>Contact Us</h4>
+                <h4>Contattaci</h4>
                 <form>
                     <div class="form-group">
-                        <label for="name">Name</label>
+                        <label for="name">Nome</label>
                         <input type="text" class="form-control" id="name" placeholder="Your Name">
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
+                        <label for="email">E-mail</label>
                         <input type="email" class="form-control" id="email" placeholder="Your Email">
                     </div>
                     <div class="form-group">
-                        <label for="message">Message</label>
+                        <label for="message">Messaggio</label>
                         <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
                     </div>
-                    <button type="submit" class="btn  form-button">Send</button>
+                    <button type="submit" class="btn  form-button">Inviare</button>
                 </form>
             </div>
         </div>
